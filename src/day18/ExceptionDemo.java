@@ -9,15 +9,15 @@ public class ExceptionDemo {
 		System.out.println("program is stated");
 		
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number:");
+		
+	/*	System.out.println("Enter a number:");
 		int num=sc.nextInt();
+		System.out.println(100/num); // arithmetic exception if we provide zero
+	*/
+		String N = null;
+		System.out.println(N.length()); // null pointer exception
 		
-		System.out.println(100/num);
-		
-		
-		
-		
-		
+				
 		
 		System.out.println("program is completed");
 		System.out.println("program is executed");
